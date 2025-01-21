@@ -67,4 +67,25 @@
   }
   .content{
     max-width: 50%;
+    padding-right: 115px;
   }
+.orange{
+    color: orange;
+}
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .content h1 span {
+    display: inline-block;
+  }
+  .content h1 .highlight {
+    color: #3399ff;
+  }
+  p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: black;
+  }
+/* Responsive Design */
