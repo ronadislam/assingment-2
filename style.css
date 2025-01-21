@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+
+  .navber{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding: 10px 20px; */
+  }
+  .brand{
+    font-weight: bolder;
+    margin-right: 153px;
+  }
+  .nav-links{
+    display: flex;
+  }
+  .nav-item{
+    list-style: none;
+  }
+  .nav-link{
+    text-decoration: none;
+    display: flex;
+    margin: 30px;
+    font-weight: bold;
+  }
+
+
+  /* button */
+  .btn-primary{
+    background-color: orange;
+    color: white;
+    padding: 10px 45px;
+    font-size: 1.25rem;
+    font-weight:600;
+    border: none;
+    border-radius: 5px;
+    margin-left: 152px;
+  }
+  .btn{
+    background-color: black;
+    color: white;
+    padding: 10px 45px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* hero-part */
+  .hero{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* padding: 30px; */
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .content{
+    max-width: 50%;
+  }
